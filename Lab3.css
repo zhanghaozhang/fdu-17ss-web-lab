@@ -1,0 +1,151 @@
+body{
+    font-family: sans-serif, serif, "Times New Roman";
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #E8EAF6;
+}
+/*标题*/
+header{
+    background: #1A237E;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+header > h1{
+    line-height: 1.5em;
+    color: white;
+}
+header > p{
+    font-style:italic;
+    color: white;
+}
+/*超链接*/
+div{background: #3F51B5;
+    padding-top: 0.3em;
+    padding-left: 1em;
+    padding-bottom: 0.3em;
+    margin-bottom: 0.5em;
+}
+a{
+    color: #00B0FF;
+    padding: 0.3em;
+}
+a:hover{
+    background: #F50057;
+    padding: 0.3em;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+li{
+    display:inline;
+}
+
+/*主干部分*/
+#main{
+    padding: 0.5em;
+    background: white;
+}
+section{
+    border: solid #C5CAE9;
+    padding: 0;
+    /*padding-bottom: 2em;*/
+    margin-bottom: 0.5em;
+    margin-right: 0;
+    margin-left: 0;
+}
+h2{
+    background: #7986CB;
+    margin: 0;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    color: white;
+}
+#pic{
+    width: 100%;
+    height: 100%;
+}
+#picbelow{
+    background: #C5CAE9;
+    color: #7990A3;
+    font-style: italic;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    margin-top: -0.25em;
+}
+#section1 > #icons{
+    background: white;
+    padding-top: 0;
+    padding-right: 1em;
+    padding-bottom: 2.5em;
+    padding-left: 1em;
+    margin: 0;
+    font-weight: bold;
+    color: black;
+}
+
+#icon{
+    background: white;
+    padding-top: 0.5em;
+    float: right;
+}
+
+#section2 > div{
+    height: 150px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+
+#section3{
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+#section3 > h4{
+    padding-top: 0.5em;
+    color: #C5CAE9;
+    font-style: italic;
+    margin: 0;
+}
+
+#section3 > p{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0;
+    color: black;
+    font-weight: bold;
+}
+
+#section3 > hr{
+    color: black;
+}
+
+#section3 > h4 > span{
+    color: #F5A2C1;
+}
+
+footer{
+    background: #1A237E;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    padding-left: 1em;
+    margin-top: 0.5em;
+}
+
+footer > i{
+    margin-top: 0.6em;
+    color: white;
+}
+footer > p >span{color: white;}
+
