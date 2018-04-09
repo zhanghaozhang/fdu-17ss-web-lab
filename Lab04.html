@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="Lab04.css"  media="all"/>
+    <meta charset="UTF-8">
+    <title>Lab04</title>
+</head>
+<body>
+<header>
+    <h1>Share Your Travels</h1>
+    <p>let us know where you've been</p>
+</header>
+
+<main>
+    <section>
+        <form>
+            <fieldset id="legend">PHOTO DETAILS</fieldset>
+            <fieldset>
+                <table>
+                    <tr>
+                        <td colspan="2">
+                            <p>Title</p>
+                            <label>
+                                <input name="title"  value="Give your photo a descriptive name" width="">
+                            </label>
+                            <p>Description</p>
+                            <label>
+                                <textarea rows="4">Adding a rich description will help with search results
+                                </textarea>
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p>Continent</p>
+                            <label>
+                                <select size="1">
+                                    <option value="Choose continent">Choose continent</option>
+                                </select>
+                            </label>
+                            <p>Country</p>
+                            <label>
+                                <select size="1">
+                                    <option value="Choose country">Choose country</option>
+                                </select>
+                            </label>
+                                <p>City</p>
+                            <label>
+                                <input name="city">
+                            </label>
+                        </td>
+                        <td>
+                            <div class="box">
+                            <p>Copyright?</p>
+                            <label>
+                                <input type="radio"  value="All rights reserved" >All rights reserved<br>
+                                <input type="radio"  value="Creative Commons" checked>Creative Commons
+                            </label>
+                            </div>
+                            <div class="box">
+                                <p>Creative Commons Types</p>
+                                <label>
+                                    <input type="checkbox"  value="ttribution">Attribution
+                                    <br>
+                                    <input type="checkbox" value="Noncommercial">Noncommercial
+                                    <br>
+                                    <input type="checkbox"  value="No Derivative Works">No Derivative Works
+                                    <br>
+                                </label>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                       <td colspan="2">
+                           <div class="rectangle">
+                               I accept the software license
+                               <label>
+                               <input type="checkbox" value="I accept the software license">
+                               </label>
+                           </div>
+                       </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div>
+                                <p>Rate this photo:</p>
+                                <label>
+                                    <input type="text" size="3">
+                                </label>
+                                <p>Color Collection:</p>
+                                <label>
+                                    <input type="color">
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            <p>Date Taken:</p>
+                            <label>
+                                <input type="date" name="Date Taken">
+                            </label>
+                            <p>Time Taken:</p>
+                            <label>
+                                <input type="time" name="Time Taken">
+                            </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <div class="rectangle">
+                                <button type="submit" class="rounded">提交</button>
+                                <button type="reset" class="rounded">Clear Form</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </section>
+
+</main>
+
+
+
+
+
+</body>
+</html>
