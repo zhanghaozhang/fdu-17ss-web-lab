@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1, shrink-to-fit = no">
+
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Lab05-Upload</title>
+</head>
+<body>
+<header class="container">
+    <div class="collapse navbar navbar-expand-md navbar-light row">
+        <div class="col-sm-auto text-center">
+            <h1>Share Your Travels</h1>
+            <p class="font-italic">Let us know where you've been</p>
+        </div>
+        <ul class="nav collapse navbar-collapse navbar-nav justify-content-end nav-fill col-md-6 offset-md-1">
+            <li class="nav-item">
+                <a href="Lab05.html" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Feeling Lucky</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">User</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<main class="table-bordered container">
+        <form>
+            <h4>Photo Details</h4>
+            <div class="form-group">
+                <label>Title</label>
+                <input type="text" class="form-control" id="title" placeholder="Give your photo a descriptive name">
+            </div>
+            <div class="form-group">
+                <label>Description</label>
+                <textarea class="form-control" id="description" placeholder="Adding a rich description will help with search results"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="sel1">Continent</label>
+                <select class="form-control" id="sel1">
+                    <option>Choose continent</option>
+                </select>
+                <label for="sel2">Country</label>
+                <select class="form-control" id="sel2">
+                    <option>Choose country</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>City</label>
+                <input type="text" class="form-control" id="city" placeholder="">
+            </div>
+
+            <div class="form-group">
+                <p>Copyright?</p>
+                <form>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio ">All rights reserved</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="optradio">Creative Commons</label>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="form-group">
+                <p>Creative Commons Types</p>
+                <form>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input">Attribution
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input">Noncommercial
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="">No Derivative Works
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-group">
+                <form>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="">I accept the software license
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 form-group">
+                    <div class="form-group">
+                        <label for="qidiwang">Rate this photo:</label><br>
+                            <input type="number" id="qidiwang" class="form-control" size="1em">
+                    </div>
+                </div>
+                <div class="col-md-8 form-group offset-md-1">
+                    <div class="form-group">
+                    <label for="collection">Color Collection:</label><br>
+                        <input type="color" id="collection" class="form-control" >
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    <div class="form-group">
+                        <p>Date Taken:</p>
+                        <label>
+                            <input type="date" id="date" class="form-control">
+                        </label>
+
+                    </div>
+                </div>
+                <div class="col-md-5 form-group offset-md-1">
+                    <div class="form-group">
+                        <p>Time Taken:</p>
+                        <label>
+                            <input type="time" name="Time Taken" class="form-control">
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <button type="button" class="btn btn-dark">Submit</button>
+                <button type="button" class="btn btn-dark">Clear</button>
+            </div>
+        </form>
+</main>
+
+</body>
+</html>

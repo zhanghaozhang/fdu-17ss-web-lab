@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1, shrink-to-fit = no">
+
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Lab05</title>
+</head>
+<body class="container">
+<header>
+    <div class="collapse navbar navbar-expand-md navbar-light row">
+        <div class="col-sm-auto text-center">
+            <h1>Share Your Travels</h1>
+            <p class="font-italic">Let us know where you've been</p>
+        </div>
+        <ul class="nav collapse navbar-collapse navbar-nav justify-content-end nav-fill col-md-6 offset-md-1">
+            <li class="nav-item">
+                <a href="Lab05-Upload.html" class="nav-link">Upload</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Related Photos</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Reviews</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<main class="row">
+    <section class="border col-xs-8 col-md-8">
+        <h2>New York - Central Park</h2>
+        <p class="text-secondary">Conservatory Pond in Central Park</p>
+        <a href="images/large-central-park.jpg">
+            <img class="w-100" src="images/central-park.jpg" />
+        </a>
+        <p>This photo of Conservatory Pond in <a href="#">Central</a> in <a href="#">New York City</a>
+            was taken on October 22,2016 with a Canon EOS 30D camera.
+        </p>
+        <p class="text-right">
+            <a href="#"><img src="images/icon_download.png"></a>
+            <a href="#"><img src="images/icon_mail.png"></a>
+            <a href="#"><img src="images/icon_map.png"></a>
+            <a href="#"><img src="images/icon_up.png"></a>
+            <a href="#"><img src="images/icon_down.png"></a>
+        </p>
+    </section>
+
+    <section class="border col-xs-4 col-md-4">
+        <section>
+        <h3>Related Photos</h3>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- 指示符 -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- 轮播图片 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="images/related-large1.jpg">
+                        <img class="w-100" src="images/related-square1.jpg" />
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="images/related-large2.jpg">
+                        <img class="w-100" src="images/related-square2.jpg" />
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="images/related-large3.jpg">
+                        <img class="w-100" src="images/related-square3.jpg" />
+                    </a>
+                </div>
+            </div>
+
+            <!-- 左右切换按钮 -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+    </section>
+        <div class="container">
+            <h2>Reviews</h2>
+            <div id="accordion" class="text-center">
+                <div class="form-group">
+                    <div>
+                        <p class="font-weight-bold font-italic">Ricardo</p>
+                        <a class="btn btn-info" data-toggle="collapse"  href="#collapseOne">
+                            2016-05-23
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="collapse">
+                        <div class="card-block">
+                            <b>Easy on the HDR buddy</b>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <div>
+                        <p class="font-weight-bold font-italic">Susan</p>
+                        <a class="btn btn-info" data-toggle="collapse"  href="#collapseTwo">
+                            2016-11-18
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse">
+                        <div class="card-block">
+                           <b class="text-left"> I love Central Park</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</main>
+
+<footer>
+    <div class="collapse navbar navbar-expand-md navbar-light row">
+        <ul class="nav collapse navbar-collapse navbar-nav justify-content-end nav-fill col-md-6 offset-md-1">
+            <li class="nav-item">
+                <a href="#" class="nav-link text-info">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-info">Browse</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-info">Search</a>
+            </li>
+        </ul>
+    </div>
+    <p class="text-center"><i>Copyright &#169 2017 Share Your Travels</i></p>
+</footer>
+</body>
+</html>
