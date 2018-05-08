@@ -23,8 +23,6 @@ footer {
     font-family: Lobster, Cambria, "Times New Roman", serif;
 }
 
-
-
 body {
     font-family: "Open Sans", Verdana, Arial, sans-serif;
     font-size: 100%;
@@ -37,7 +35,7 @@ body {
 header, footer {
     color: white;
     background-color: #1A237E;
-    margin: 0em 4em 0.25em 4em;
+    margin: 0 4em 0.25em 4em;
 }
 
 header h1 {
