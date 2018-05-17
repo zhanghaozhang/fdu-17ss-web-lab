@@ -4,7 +4,7 @@
 
 ## 当前 Lab
 
-- [Lab06](./requirements/Lab06.md)
+- [Lab08](./requirements/Lab06.md)
 
 ## 往期 Lab
 
