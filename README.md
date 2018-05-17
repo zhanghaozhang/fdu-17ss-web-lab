@@ -1,12 +1,12 @@
 # fdu-17ss-web-lab
 
-大家好，我们将在这里发布我们后续的 Lab
+大家好，我们将在这里发布我们后续�?Lab
 
 ## 当前 Lab
 
-- [Lab08](./requirements/Lab06.md)
+- [Lab06](./requirements/Lab06.md)
 
-## 往期 Lab
+## 往�?Lab
 
 - [Lab02](./requirements/Lab02.md)
 - [Lab03](./requirements/Lab03.png)
