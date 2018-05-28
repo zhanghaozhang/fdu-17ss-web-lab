@@ -8,10 +8,10 @@
 </head>
 <body>
 <form id="form">
-    <select title="select" id="select1" onchange="abc(this)">
+    <select title="select" id="select1" onchange="first(this)">
         <option value="selectOne">SELECT ONE</option>
         <option value="createTable">CREATE TABLE</option>
-        <option value="addRow">ADD ROW</option>
+        <option value="addRow">Add ROW</option>
         <option value="delRow">DELETE ROW</option>
         <option value="delTable" title="WARNING: You cannot undo this action!">DELETE TABLE</option>
     </select><br>
@@ -22,13 +22,13 @@
             <input type="number" placeholder="Columns Numbers" id="colNumber">
         </div><br>
 
-        <div id="aboutColumn">
+        <div id="augColumn">
         </div>
     </div><br>
 
-    <button value="commit" id="button">commit</button><br>
+    <button value="commit" id="button" onclick="a()">commit</button><br>
 
-    <select title="nt"  id="select2">
+    <select title="nt"  id="select2" onchange="second()">
         <option value="select">SELECT</option>
     </select>
 </form>
